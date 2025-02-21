@@ -30,7 +30,7 @@ class NissanConnectVehicle {
   hasService(int id) => services.hasService(id);
 
   NissanConnectVehicleType get type => switch (modelName) {
-        'Ariya' => NissanConnectVehicleType.ariya,
+        'ARIYA' => NissanConnectVehicleType.ariya,
         'Leaf' => NissanConnectVehicleType.leaf,
         _ => NissanConnectVehicleType.other,
       };
